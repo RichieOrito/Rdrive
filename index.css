@@ -32,3 +32,17 @@ nav ul li {
   text-transform: capitalize;
 }
 
+.lorem{
+  padding: 60px;
+}
+
+.lorem p {
+  margin-top: 50px;
+  line-height: 1.8;
+}
+
+.store img {
+  height: 55px;
+  padding-left: 50px;
+  
+}
