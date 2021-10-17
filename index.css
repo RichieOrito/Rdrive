@@ -49,9 +49,10 @@ nav ul li {
 .store img {
   height: 60px;
   padding-left: 50px;
+  padding-bottom: 50px;
 }
-/*
-.range img{
+
+/*.range img{
   float: right;
   position: relative;
   bottom: 350px;
@@ -64,6 +65,8 @@ nav ul li {
 .two{
 
   background-color: #e5e0df;
+  padding: 10px;
+
 }
 
 .how-it-works h3{
@@ -96,6 +99,8 @@ nav ul li {
   background-color: #EE5B2A;
   border-style: solid;
   border-color: #ffffff;
+  justify-content: center;
+  position: relative;
 }
 
 .row-img::after{
@@ -107,5 +112,30 @@ nav ul li {
 .column-img img{
   width:53px;
   height:53px;
+  display: block;
 }
+
+.img-no{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  background: #7c5ad4;
+  justify-content: center;
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin: 18px;
+  bottom: -25px;
+}
+
+/*section 3- how it works 2*/
+
+.three{
+  background-color: #ffffff;
+  display: flex;
+  padding: 70px;
+}
+
 
