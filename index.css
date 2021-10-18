@@ -276,11 +276,13 @@ position: relative;
 .learnmore button{
   padding: 5px 30px 5px 30px;
   border-radius: 10px;
-  background-color: #F9621F;
+  background-color: #EE5B2A;
   margin-top: 55px;
   margin-left: 20px;
   text-transform: capitalize;
   color: #ffffff;
+  font-size: 24px;
+  border-style: hidden;
 }
 
 .fifth{
