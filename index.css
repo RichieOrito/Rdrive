@@ -11,6 +11,7 @@ nav {
   list-style: none;
   box-sizing: border-box;
   box-shadow: 0 9px 9px -9px rgba(0,0,0,.4);
+  align-items: center;
 }
 
 .logo {
@@ -19,6 +20,18 @@ nav {
   line-height: 80px;
   padding: 0 70px;
   font-weight: bold;
+  
+}
+
+.btn{
+  padding-left:20px;
+  padding-right: 20px;
+  background-color:#EE5B2A;
+  color: #ffffff;
+  border-radius: 20px;
+  padding-top:10px;
+  padding-bottom: 10px;
+
 }
 
 nav ul {
@@ -29,12 +42,11 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  line-height: 80px;
   margin: 0 10px;
   color:#F9621F;
   font-size: 20px;
-  padding: 7px 13px;
   text-transform: capitalize;
+  margin-top: 25px;
 }
 
 .lorem{
@@ -52,13 +64,29 @@ nav ul li {
   padding-bottom: 50px;
 }
 
-/*.range img{
-  float: right;
+.rectangle{
+  height:450px;
+  width: 250px;
+  background-color:#EE5B2A;
+  position: absolute;
+  top:0;
+  right: 0;
+  z-index: 2;
+  border-radius: 10px;
+  margin-top: -30px;
+}
+
+.range img{
+  z-index: 5;
   position: relative;
-  bottom: 350px;
-  right:150px;
-  height: auto;
-}*/
+}
+.range{
+  position: absolute;
+  top: 150px;
+  right:-30px;
+
+}
+
 
 /*section two*/
 
@@ -89,7 +117,27 @@ nav ul li {
   padding: 10px 10px;
 }
 
-.column-img{
+.box{
+ width: 33%;
+ text-align: center;
+}
+
+.boxes{
+  display: flex;
+  margin: 50px;
+  padding: 5px;
+}
+
+.box-desc p{
+  width: 250px;
+  padding: 20px;
+}
+
+.box-desc h3{
+ padding-top: 100px;
+}
+
+.box-img{
   float: left;
   padding: 5px 0 5px 0px;
   width: 60px;
@@ -101,15 +149,16 @@ nav ul li {
   border-color: #ffffff;
   justify-content: center;
   position: relative;
+  padding: 8px;
 }
 
-.row-img::after{
+.boxes::after{
   content: "";
   display: table;
   clear: both;
 }
 
-.column-img img{
+.box img{
   width:53px;
   height:53px;
   display: block;
@@ -134,8 +183,38 @@ nav ul li {
 
 .three{
   background-color: #ffffff;
+  padding: 70px 0;
   display: flex;
-  padding: 70px;
+}
+
+.secondcar{
+  position: relative;
+  left: -250px;
+  width: 200px;
+}
+
+.third {
+  /* float: right; */
+  padding-left: 150px;
+  max-width: 580px;
+}
+.feature{
+  position: relative;
+  padding: 10px 25px;
+}
+.feature::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #F9621F;
+  left: 0;
+  
+}
+
+.features{
+  margin-top :50px;
 }
 
 
