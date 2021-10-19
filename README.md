@@ -69,3 +69,6 @@ Slack Profile - [Richard Omondi](https://app.slack.com/client/T0101L740P4/C010GL
 Linked - [Richard Orito](https://www.linkedin.com/in/richie-orito/)
 
 [Go Back to the top](#rdrive)
+
+# Design
+![Image](design.jpg)
