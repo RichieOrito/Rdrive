@@ -70,8 +70,7 @@ Linked - [Richard Orito](https://www.linkedin.com/in/richie-orito/)
 
 [Go Back to the top](#rdrive)
 
-<<<<<<< HEAD
 # Design
-![Image](design.jpg)
-=======
->>>>>>> b3ee9c419fe4d76e3867d5ec86ebf2f1483df9cd
+![design](https://user-images.githubusercontent.com/48394582/137859594-53b5cd3e-b812-4766-ab41-fa86a30a954c.png)
+
+
