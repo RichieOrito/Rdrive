@@ -29,6 +29,9 @@
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
 
+###Design
+![design](https://user-images.githubusercontent.com/48394582/139221146-a3666d67-82f2-458e-835a-ab2c1efb78d3.png)
+
 ## Reference
 * LMS
 * w3schools
@@ -69,5 +72,6 @@ Slack Profile - [Richard Omondi](https://app.slack.com/client/T0101L740P4/C010GL
 Linked - [Richard Orito](https://www.linkedin.com/in/richie-orito/)
 
 [Go Back to the top](#rdrive)
+
 
 
