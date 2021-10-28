@@ -29,16 +29,17 @@ span{
   height: 50px;
   background-color: #EE5B2A;
   color:#ffffff;
-  border-radius: 20px;
+  border-radius: 16px;
   text-align: center;
-  padding: 10px 15px 10px 15px;
+  padding: 3px 12px;
 }
 
 .btn{
   background-color:#EE5B2A;
   color: #ffffff;
-  padding: 5px 30px 5px 30px;
-  border-radius: 10px
+  padding: 10px 65px;
+  border-radius: 15px;
+  font-weight : 650;
 
 }
 
@@ -59,6 +60,7 @@ nav ul li {
 
 .lorem{
   padding: 60px;
+  box-sizing: border-box;
 }
 
 .lorem p {
@@ -68,8 +70,9 @@ nav ul li {
 
 .store img {
   height: 60px;
-  padding-left: 50px;
-  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-bottom: 30px;
+  padding-top: 50px;
 }
 
 .rectangle{
@@ -138,21 +141,19 @@ nav ul li {
 
 .box-desc p{
   width: 250px;
-  padding: 20px;
+  padding: 15px 0;
   color: #525252;
 }
 
 .box-desc h3{
- padding-top: 100px;
+ padding-top: 25px;
  font-weight: bold;
 }
 
 .box-img{
-  float: left;
+  /* float: left; */
   padding: 5px 0 5px 0px;
   width: 60px;
-  margin-left: 160px;
-  margin-right: 190px;
   border-radius: 10px 10px;
   background-color: #EE5B2A;
   border-style: solid;
@@ -181,12 +182,12 @@ nav ul li {
   background: #7c5ad4;
   justify-content: center;
   color: #ffffff;
-  height: 1px;
-  width: 1px;
+  height: 10px;
+  width: 2px;
   border-radius: 50%;
   font-size: 14px;
-  margin: 18px;
-  bottom: -30px;
+  margin: 10px;
+  bottom: -20px;
 }
 
 /*section 3- how it works 2*/
@@ -260,10 +261,10 @@ position: relative;
 .learnmore{
   border-radius: 15px 15px 15px 15px;
   background-color: rgba(0,0,0,0.8);
-  height: 400px;
+  height: 330px;
   width: 350px;
   position: absolute;
-  top:5%;
+  top:7%;
   z-index: 1;
   color: white;
   left: 60px;
@@ -284,20 +285,147 @@ position: relative;
 }
 
 .learnmore button{
-  padding: 5px 30px 5px 30px;
-  border-radius: 10px;
+  padding: 6px 30px;
+  border-radius: 12px;
   background-color: #EE5B2A;
-  margin-top: 55px;
+  margin-top: 40px;
   margin-left: 20px;
   text-transform: capitalize;
   color: #ffffff;
-  font-size: 23px;
+  font-size: 20px;
   border-style: hidden;
+  font-weight: 600;
 }
 
 footer{
   text-align: center;
   background-color: #000000;
   color: #ffffff;
-  padding: 25px;
+  padding: 20px;
 }
+
+@media screen and (max-width: 947px) {
+  .range img{
+    width: 350px;
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 770px){
+  nav ul{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px){
+  .lorem{
+    width: 60%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:620px){
+  .range{
+    display:none;
+  }
+  .lorem{
+    width: 100%;
+    background-color:rgba(255, 255, 255,0.5);
+  }
+
+  section.one{
+    background-image: url(../images/orangerange-removebg-preview.png) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+@media screen and (max-width:1010px){
+  .boxes{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .box{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 530px){
+  section.three{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .lorem{
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 497px){
+    .secondcar img{
+      width: 600px;
+
+    }
+  }
+
+
+  @media screen and (max-width: 567px){
+    .lorem{
+      padding: 10px;
+
+    }
+  }
+
+  @media screen and (max-width: 456px){
+    .lorem{
+      padding: 10px;
+
+    }
+  }
+
+
+  @media screen and (max-width: 360px){
+    .secondcar img{
+      width: 500px;
+
+    }
+  }
+
+  @media screen and (max-width: 485px){
+    section.four{
+      width: 500px;
+
+    }
+  }
+
+  @media screen and (max-width: 480px){
+    section.four{
+      width: 450px;
+
+    }
+  }
+
+  @media screen and (max-width: 450px){ 
+    section.four{ 
+      width: 400px;
+    }
+
+    .learnmore{
+      width: 250px;
+    }
+
+    .lorem{
+      padding: 10px;
+    }
+  }  
+
+  @media screen and (max-width: 403px){ 
+    section.four{ 
+      width: 300px;
+    }
+
+    .learnmore{
+      width: 200px;
+    }
+  }    
